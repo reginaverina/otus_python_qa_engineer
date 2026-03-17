@@ -1,8 +1,14 @@
-def calculate_average(nums):
-    total = sum(nums)
-    count = len(numbers)
-    average = total / count
+""" Модуль для нахождения среднего значения """
 
-nums = [10, 15, 20]
-result = calculat_average(nums)
-Print("The average is:", result)
+
+def calculate_average(nums):
+    """ Функция вычисления среднего значения """
+    total = sum(nums)
+    count = len(nums)
+    average = total / count
+    return average
+
+
+nums_list = [10, 15, 20]
+result = calculate_average(nums_list)
+print("The average is:", result)
